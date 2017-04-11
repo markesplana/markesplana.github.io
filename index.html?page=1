@@ -4,292 +4,381 @@
 <!--[if !(IE 7) | !(IE 8)  ]><!--> <html lang="en-US" class="template-parallax"> <!--<![endif]-->
 <head>
 
-
+	
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-	<title>Mark Esplana</title>
+	<title>Horizillax - A horizontal parallax template</title>
 
-
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-
-
+		
+	
+	
+	
 	<link rel='stylesheet' href='css/pace-theme-center-simple.css' media='screen' />
-
+	
 	<link rel='stylesheet' href='css/nanoscroller.css' media='screen' />
-
+	
 	<link rel='stylesheet' href='css/bootstrap.min.css' media='screen' />
-
+	
 	<link rel='stylesheet' href='css/style.css' media='screen' />
-
+	
 	<link rel='stylesheet' href='css/responsive.css' media='screen' />
-
+	
 	<link rel='stylesheet' href='css/magnific-popup.css' media='screen' />
-
+	
 	<link rel='stylesheet' href='css/colors/blue.css' media='screen' />
-
+		
 	<!--[if lt IE 9]>
 		<link rel='stylesheet' href='css/ie.css' media='screen' />
 	<![endif]-->
-
-
-
+	
+	
+	
 	<link rel="shortcut icon" href="images/favicon.png">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
-
-
-
+	
+	
+	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
 	<script src='js/jquery-migrate.min.js'></script>
-
+	
 	<script src='js/bootstrap.min.js'></script>
-
+	
 	<script src='js/pace.min.js'></script>
-
+	
 	<script src='js/jquery.animate-enhanced.min.js'></script>
-
+	
 	<script src='js/jquery.nanoscroller.min.js'></script>
-
-	<script src='js/parallax.elements.js'></script>
+	
+	<script src='js/parallax.elements.js'></script>	
 
 
 </head>
 <body>
 
+	<a class="buynow" href="http://themeforest.net/item/-horizillax-horizontal-parallax-html-template-/7879442?ref=productivethemes"><img src="images/download_theme.png"></a>
 	<div class="loading-page"></div>
-
-
+	
+	
 	<div class="wrapall">
-
-
+	
+		
 		<header id="masthead">
- 			<div class="navbar navbar-inverse" role="navigation">
+ 			<div class="navbar navbar-inverse" role="navigation">    
 				<div class="container-fluid">
-
+					
 					<div class="navbar-header">
-
-
+						
+						
            				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               				<span class="sr-only">Toggle navigation</span>
              				<span class="icon-bar"></span>
               				<span class="icon-bar"></span>
               				<span class="icon-bar"></span>
             			</button>
-
-
-
+            			
+            			
+            			
             			<a class="navbar-brand" href="javascript:void(0);"  onclick="HORILLAX.ANIM.instance.move(0);" rel="home">
 							<img src="images/logo.png" alt="horizillax">
             			</a>
-
-
+            			
+            			
          			</div>
-
+         			
          			<nav role="navigation" class="collapse navbar-collapse" id="main-navbar">
-
+                          							
 						<ul class="nav navbar-nav no-float" id="parallax-menu">
 							<li class="menu-item"><a href="javascript:void(0);">Home</a></li>
-							<li class="menu-item"><a href="javascript:void(0);">About Mark</a></li>
-							<li class="menu-item"><a href="javascript:void(0);">Blog</a>
-
+							<li class="menu-item"><a href="javascript:void(0);">About Us</a></li>
+							<li class="menu-item dropdown"><a href="javascript:void(0);">Blog</a>
+							
+								
+								<ul class="dropdown-menu">
+									<li><a href="blog.html">Blog List</a></li>
+									<li><a href="blog-single.html">Single Post</a></li>
+								</ul>
+								
+								
 							</li>
 							<li class="menu-item dropdown">
 								<a href="javascript:void(0);">Portfolio</a>
-
-
+								
+								
 								<ul class="dropdown-menu">
-									<li><a href="#">Filterable</a></li>
-									<li><a href="#">Single Project</a></li>
-									<li><a href="#">4 Columns</a></li>
+									<li><a href="portfolio-filterable.html">Filterable</a></li>
+									<li><a href="portfolio-single.html">Single Project</a></li>
+									<li><a href="http://www.productivethemes.com/horizillax/html/portfolio-4cols.html">4 Columns</a></li>
 									<li><a href="portfolio.html">3 Columns</a></li>
-									<li><a href="#">2 Columns</a></li>
+									<li><a href="http://www.productivethemes.com/horizillax/html/portfolio-2cols.html">2 Columns</a></li>
 								</ul>
-
-
+								
+								
 							</li>
-
-						</ul>
-
-
+							
+						</ul>							
+						
+							
 						<div id="social-icons" class="pull-right">
-							<a href="index.html#" class="btn btn-social-icon btn-sm btn-twitter"><i class="fa fa-twitter"></i></a>
-							<a href="index.html#" class="btn btn-social-icon btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>
-							<a href="index.html#" class="btn btn-social-icon btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>
-							<a href="index.html#" class="btn btn-social-icon btn-sm btn-dribbble"><i class="fa fa-dribbble"></i></a>
+							<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-twitter"><i class="fa fa-twitter"></i></a>			
+							<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>				
+							<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>						
+							<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-dribbble"><i class="fa fa-dribbble"></i></a>					
            				</div>
-
-
+           				
+							
 					</nav>
-
+					
 
 				</div>
 			</div>
 		</header>
-
-
-
+		
+ 
+		
 		<div id="parallax-container">
-
+		
 			<div id="home-page" class="parallax-page">
 				<div class="page-title"></div>
 				<div class="page-contents nano">
 					<div class="parallax-parallax nano-content">
 						<div class="text-center">
-							<img src="images/horizontal_parallax_wordpress.png" width="657" height="91" alt="">
+							<img src="images/horizontal_parallax_wordpress.png" width="657" height="91" alt=""> 
 						</div>
-
+						<div class="text-center center-block welcome-page">
+							<div class="row">
+								<div class="col-sm-6">
+									<a href="javascript:void(0);" onclick="HORILLAX.ANIM.instance.move(1);">
+										<img src="images/experience_horizillax.png" width="264" height="54" alt="">
+									</a>
+								</div>
+						
+								<div class="col-sm-6">
+									<a href="http://themeforest.net/item/horizillax-horizontal-parallax-wordpress-theme/7399767?ref=productivethemes">
+										<img src="images/purchase_theme.png" width="264" height="54" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-
+			</div> 
+			
 			<div id="aboutus-page" class="parallax-page">
 				<div class="content-box noSwipe">
-
+					<div class="page-title">
+						<h1>About Us</h1>
+						<h4>Our Team</h4>
+					</div>
 					<div class="page-contents nano">
 						<div class="parallax-aboutus nano-content">
-										<div class="row">
-											<div class="col-md-4">
-												<div class="member">
-													<div class="team-group">
-														<div class="team-pic">
-															<img src="images/markesplana.jpg" class="image-height" alt="">
-														</div>
-														<div class="team-desc image-height">
-															<div class="extra-pad">
-																Seded ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-															</div>
-														</div>
-													</div>
-													<div class="team-content">
-														<h3>Mark Esplana</h3>
-														<p>UI/UX Engineer</p>
-													</div>
-												</div>
-
-											</div>
-											<div class="col-md-8">
-												<h5><small>Nickname:</small> Mac</h5>
-												<h5><small>Date of Birth:</small> July 18, 1992</h5>
-												<h5><small>Address:</small> Marulas, Valenzuela City</h5>
-												<h5><small>Email:</small> esplana.mark@gmail.com</h5>
-												<h5><small>Skype:</small> mac_esplana</h5>
-											</div>
-										</div>
-
+							<div class="team">
+							
+								<div class="member">
+       								<div class="team-group">
+       									<div class="team-pic">
+       										<img src="../wp-content/uploads/2014/04/about1.jpg" class="image-height" alt="">
+       									</div>
+       									<div class="team-desc image-height">
+       										<div class="extra-pad">
+       											Seded ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+       										</div>
+       									</div>
+       								</div>
+       								<div class="team-content">
+       									<h3>Steve Williams</h3>
+       									<p>Managing Director</p>
+       									<div class="member-social">
+       										<a href="index.html?page=1#"  class="btn btn-social-icon btn-sm btn-twitter"><i class="fa fa-twitter"></i></a>
+       										<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>
+       										<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>
+       									</div>
+       								</div>
+       							</div>
+       							
+       							<div class="member">
+       								<div class="team-group">
+       									<div class="team-pic">
+       										<img src="../wp-content/uploads/2014/04/about2.jpg" class="image-height" alt="">
+       									</div>
+       									<div class="team-desc image-height">
+       										<div class="extra-pad">
+       											Seded ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+       										</div>
+       									</div>
+       								</div>
+       								<div class="team-content">
+       									<h3>Stacy Anders</h3>
+       									<p>Chief Executive Officer</p>
+       									<div class="member-social">
+       										<a href="index.html?page=1#"  class="btn btn-social-icon btn-sm btn-twitter"><i class="fa fa-twitter"></i></a>
+       										<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>
+       										<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>
+       									</div>
+       								</div>
+       							</div>
+       							
+       							<div class="member">
+       								<div class="team-group">
+       									<div class="team-pic">
+       										<img src="../wp-content/uploads/2014/04/about3.jpg" class="image-height" alt="">
+       									</div>
+       									<div class="team-desc image-height">
+       										<div class="extra-pad">
+       											Seded ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+       										</div>
+       									</div>
+       								</div>
+       								<div class="team-content">
+       									<h3>Nick Adams</h3>
+       									<p>Web Designer</p>
+       									<div class="member-social">
+       										<a href="index.html?page=1#"  class="btn btn-social-icon btn-sm btn-twitter"><i class="fa fa-twitter"></i></a>
+       										<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>
+       										<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>
+       									</div>
+       								</div>
+       							</div>
+       							
+       							<div class="member">
+       								<div class="team-group">
+       									<div class="team-pic">
+       										<img src="../wp-content/uploads/2014/04/about11.jpg" class="image-height" alt="">
+       									</div>
+       									<div class="team-desc image-height">
+       										<div class="extra-pad">
+       											Seded ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+       										</div>
+       									</div>
+       								</div>
+       								<div class="team-content">
+       									<h3>Michelle Smith</h3>
+       									<p>Web Developer</p>
+       									<div class="member-social">
+       										<a href="index.html?page=1#"  class="btn btn-social-icon btn-sm btn-twitter"><i class="fa fa-twitter"></i></a>
+       										<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-facebook"><i class="fa fa-facebook"></i></a>
+       										<a href="index.html?page=1#" class="btn btn-social-icon btn-sm btn-linkedin"><i class="fa fa-linkedin"></i></a>
+       									</div>
+       								</div>
+       							</div>
+       							
+       						</div>
        					</div>
 					</div>
-
+					<a href="about.html" class="btn btn-default link" data-original-title="SHOW ALL">
+						<i class="fa fa-bars"></i>
+					</a>
 				</div>
 			</div>
-
+						
 			<div id="blog-page" class="parallax-page">
 				<div class="content-box noSwipe">
 					<div class="page-title">
 						<h1>Blog</h1>
 						<h4>Our Team</h4>
 					</div>
-
+				
 					<div class="page-contents nano">
 						<div class="parallax-blog nano-content">
 							<div class="blogpage">
-
+					
 								<div class="blogpost format-quote">
 								<div class="post_format fa"></div>
 									<header class="entry-header small-title">
-										<h1 class="blog-post-title"><a href="index.html#">Quote</a></h1>
+										<h1 class="blog-post-title"><a href="index.html?page=1#">Quote</a></h1>
 										<div class="meta-details">
-											<a href="index.html#"><i class="fa-user fa"></i> admin</a>
-											<a href="index.html#"><i class="fa-clock-o fa"></i> Apr 03, 2014</a>
-											<a href="index.html#"><i class="fa-comment fa"></i> 0</a>
+											<a href="index.html?page=1#"><i class="fa-user fa"></i> admin</a>
+											<a href="index.html?page=1#"><i class="fa-clock-o fa"></i> Apr 03, 2014</a>
+											<a href="index.html?page=1#"><i class="fa-comment fa"></i> 0</a>
 										</div>
 									</header>
-									<a href="index.html#" class="overlay">
+									<a href="index.html?page=1#" class="overlay">
 										<span class="icon-align"><span class="icon"><i class="fa-link fa"></i></span></span>
 										<img width="520" height="310" src="../wp-content/uploads/2014/04/post4-520x310.jpg" class="attachment-blog_parallax wp-post-image" alt="">
 									</a>
 								</div>
-
+							
 								<div class="blogpost format-standard">
 									<div class="post_format fa"></div>
 									<header class="entry-header small-title">
-										<h1 class="blog-post-title"><a href="index.html#">A post with comments</a></h1>
+										<h1 class="blog-post-title"><a href="index.html?page=1#">A post with comments</a></h1>
 										<div class="meta-details">
-											<a href="index.html#"><i class="fa-user fa"></i> admin</a>
-											<a href="index.html#"><i class="fa-clock-o fa"></i> Apr 03, 2014</a>
-											<a href="index.html#"><i class="fa-comment fa"></i> 5</a>
+											<a href="index.html?page=1#"><i class="fa-user fa"></i> admin</a>
+											<a href="index.html?page=1#"><i class="fa-clock-o fa"></i> Apr 03, 2014</a>
+											<a href="index.html?page=1#"><i class="fa-comment fa"></i> 5</a>
 										</div>
 									</header>
-									<a href="index.html#" class="overlay">
+									<a href="index.html?page=1#" class="overlay">
 										<span class="icon-align"><span class="icon"><i class="fa-link fa"></i></span></span>
 										<img width="520" height="310" src="../wp-content/uploads/2014/04/post3-520x310.jpg" class="attachment-blog_parallax wp-post-image" alt="">
 									</a>
 								</div>
-
+								
 								<div class="blogpost format-standard">
 									<div class="post_format fa"></div>
 									<header class="entry-header small-title">
 										<h1 class="blog-post-title">
-											<a href="index.html#">HTML Tags and Formatting</a>
+											<a href="index.html?page=1#">HTML Tags and Formatting</a>
 										</h1>
 										<div class="meta-details">
-											<a href="index.html#"><i class="fa-user fa"></i> admin</a>
-											<a href="index.html#"><i class="fa-clock-o fa"></i> Apr 03, 2014</a>
-											<a href="index.html#"><i class="fa-comment fa"></i> 0</a>
+											<a href="index.html?page=1#"><i class="fa-user fa"></i> admin</a>
+											<a href="index.html?page=1#"><i class="fa-clock-o fa"></i> Apr 03, 2014</a>
+											<a href="index.html?page=1#"><i class="fa-comment fa"></i> 0</a>
 										</div>
 									</header>
-									<a href="index.html#" class="overlay">
+									<a href="index.html?page=1#" class="overlay">
 										<span class="icon-align"><span class="icon"><i class="fa-link fa"></i></span></span>
 										<img width="520" height="310" src="../wp-content/uploads/2014/04/post5-520x310.jpg" class="attachment-blog_parallax wp-post-image" alt="">
 									</a>
 								</div>
-
+									
 								<div class="blogpost format-standard">
 									<div class="post_format fa"></div>
 									<header class="entry-header small-title">
-										<h1 class="blog-post-title"><a href="index.html#">Image Alignment</a></h1>
+										<h1 class="blog-post-title"><a href="index.html?page=1#">Image Alignment</a></h1>
 										<div class="meta-details">
-											<a href="index.html#"><i class="fa-user fa"></i> admin</a>
-											<a href="index.html#"><i class="fa-clock-o fa"></i> Apr 03, 2014</a>
-											<a href="index.html#"><i class="fa-comment fa"></i> 0</a>
+											<a href="index.html?page=1#"><i class="fa-user fa"></i> admin</a>
+											<a href="index.html?page=1#"><i class="fa-clock-o fa"></i> Apr 03, 2014</a>
+											<a href="index.html?page=1#"><i class="fa-comment fa"></i> 0</a>
 										</div>
 									</header>
-									<a href="index.html#" class="overlay">
+									<a href="index.html?page=1#" class="overlay">
 										<span class="icon-align"><span class="icon"><i class="fa-link fa"></i></span></span>
 										<img width="520" height="310" src="../wp-content/uploads/2014/04/post1-520x310.jpg" class="attachment-blog_parallax wp-post-image" alt="">
 									</a>
 								</div>
-
+									
 								<div class="blogpost format-standard">
 									<div class="post_format fa"></div>
 									<header class="entry-header small-title">
-										<h1 class="blog-post-title"><a href="index.html#">Text Alignment</a></h1>
+										<h1 class="blog-post-title"><a href="index.html?page=1#">Text Alignment</a></h1>
 										<div class="meta-details">
-											<a href="index.html#"><i class="fa-user fa"></i> admin</a>
-											<a href="index.html#"><i class="fa-clock-o fa"></i> Apr 02, 2014</a>
-											<a href="index.html#"><i class="fa-comment fa"></i> 0</a>
+											<a href="index.html?page=1#"><i class="fa-user fa"></i> admin</a>
+											<a href="index.html?page=1#"><i class="fa-clock-o fa"></i> Apr 02, 2014</a>
+											<a href="index.html?page=1#"><i class="fa-comment fa"></i> 0</a>
 										</div>
 									</header>
-									<a href="index.html#" class="overlay">
+									<a href="index.html?page=1#" class="overlay">
 										<span class="icon-align"><span class="icon"><i class="fa-link fa"></i></span></span>
 										<img width="520" height="310" src="../wp-content/uploads/2014/04/post2-520x310.jpg" class="attachment-blog_parallax wp-post-image" alt="">
 									</a>
 								</div>
-
+						
 							</div>
 						</div>
 					</div>
-
-					<a href="#" class="btn btn-default link" data-original-title="SHOW ALL"><i class="fa fa-bars"></i></a>
+				
+					<a href="blog.html" class="btn btn-default link" data-original-title="SHOW ALL"><i class="fa fa-bars"></i></a>
 				</div>
 			</div>
-
+		
 			<div id="portfolio-page" class="parallax-page">
 				<div class="content-box noSwipe">
 					<div class="page-title">
@@ -315,7 +404,7 @@
 									<a href="portfolio.html" class="attachent-container">
 										<img width="450" height="450" src="../wp-content/uploads/2014/04/parallaxr-450x450.png"  alt="">
 									</a>
-
+									
 									<div class="contents">
 										<h2>
 											<a href="portfolio.html">Parallaxr</a>
@@ -330,109 +419,109 @@
 									<a href="portfolio.html" class="attachent-container">
 										<img width="450" height="450" src="../wp-content/uploads/2014/04/ringo-450x450.png"  alt="">
 									</a>
-
+								
 									<div class="contents">
 										<h2>
-											<a href="#">Ringo</a>
+											<a href="portfolio.html">Ringo</a>
 										</h2>
 										<p>Cras laoreet velit vel nisi luctus molestie sit amet in eros. Suspendisse libero risus, viverra a tincidunt eu, accumsan vel eros. Laoreet velit vel nisi luctus molestie…</p>
-										<a href="#" class="btn btn-default btn-icon">
+										<a href="portfolio.html" class="btn btn-default btn-icon">
 											<i class="fa fa-link"></i> Read More
 										</a>
 									</div>
 								</li>
 								<li>
-									<a href="#" class="attachent-container">
+									<a href="portfolio.html" class="attachent-container">
 										<img width="450" height="450" src="../wp-content/uploads/2014/04/indofolio-450x450.png"  alt="">
 									</a>
-
+									
 									<div class="contents">
 										<h2>
-											<a href="#">Indofolio</a>
+											<a href="portfolio.html">Indofolio</a>
 										</h2>
 										<p>Cras laoreet velit vel nisi luctus molestie sit amet in eros. Suspendisse libero risus, viverra a tincidunt eu, accumsan vel eros. Cras laoreet velit vel nisi luctus…</p>
-										<a href="#" class="btn btn-default btn-icon">
+										<a href="portfolio.html" class="btn btn-default btn-icon">
 											<i class="fa fa-link"></i> Read More
 										</a>
 									</div>
 								</li>
-
+								
 								<li>
-									<a href="#" class="attachent-container">
+									<a href="portfolio.html" class="attachent-container">
 										<img width="450" height="450" src="../wp-content/uploads/2014/04/twibies-450x450.png"  alt="">
 									</a>
-
+									
 									<div class="contents">
 										<h2>
 											<a href="portfolio.html">Twibies</a>
 										</h2>
 										<p>Twibies is a gallery that features the best free twitter icons, themes and other twitter freebies. It’s another initiative from the Convax team to help out the…</p>
-										<a href="#" class="btn btn-default btn-icon">
+										<a href="portfolio.html" class="btn btn-default btn-icon">
 											<i class="fa fa-link"></i> Read More
 										</a>
 									</div>
 								</li>
 							</ul>
-
+							
 							<div id="pager">
-								<a href="index.html#" data-slide-index="0"  class="attachent-container">
+								<a href="index.html?page=1#" data-slide-index="0"  class="attachent-container">
 									<img width="150" height="150" src="../wp-content/uploads/2014/04/convax-150x150.png" class="attachment-thumbnail wp-post-image" alt="">
 								</a>
-								<a href="index.html#" data-slide-index="1"  class="attachent-container">
+								<a href="index.html?page=1#" data-slide-index="1"  class="attachent-container">
 									<img width="150" height="150" src="../wp-content/uploads/2014/04/parallaxr-150x150.png" class="attachment-thumbnail wp-post-image" alt="">
 								</a>
-								<a href="index.html#" data-slide-index="2"  class="attachent-container">
+								<a href="index.html?page=1#" data-slide-index="2"  class="attachent-container">
 									<img width="150" height="150" src="../wp-content/uploads/2014/04/ringo-150x150.png" class="attachment-thumbnail wp-post-image" alt="">
 								</a>
-								<a href="index.html#" data-slide-index="3"  class="attachent-container">
+								<a href="index.html?page=1#" data-slide-index="3"  class="attachent-container">
 									<img width="150" height="150" src="../wp-content/uploads/2014/04/indofolio-150x150.png" class="attachment-thumbnail wp-post-image" alt="">
 								</a>
-								<a href="index.html#" data-slide-index="4"  class="attachent-container">
+								<a href="index.html?page=1#" data-slide-index="4"  class="attachent-container">
 									<img width="150" height="150" src="../wp-content/uploads/2014/04/twibies-150x150.png" class="attachment-thumbnail wp-post-image" alt="">
 								</a>
 							</div>
-
+							
 						</div>
 					</div>
-					<a href="#" class="btn btn-default link" data-original-title="SHOW ALL">
+					<a href="portfolio-filterable.html" class="btn btn-default link" data-original-title="SHOW ALL">
 						<i class="fa fa-bars"></i>
 					</a>
 				</div>
 			</div>
-
+			
 		</div>
-
+		
 
 	</div>
-
-
-<!-- 
+	
+	
+	
 	<footer class="site-footer">
 		<div class="footer-info">
 			<div class="container">
 				<div class="site-info">&copy; All Rights Reserved.</div>
 			</div>
 		</div>
-    </footer> -->
-
-
-
+    </footer>
+    
+    
+            			        
 	<script type='text/javascript' src='js/jquery.equalheightcolumns.js'></script>
-
+	   
 	<script type='text/javascript' src='js/jquery.bxslider.min.js'></script>
-
+	   
 	<script type='text/javascript' src='js/jquery.magnific-popup.min.js'></script>
-
+	   
 	<script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
 	<script type='text/javascript' src='js/parallax.mousewheel.js'></script>
-
+	  
 	<script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
 	<script type='text/javascript' src='js/parallax.swipe.js'></script>
-
+	  
 	<script type='text/javascript' src='js/parallax.keypress.js'></script>
-
+	  
 	<script type='text/javascript' src='js/parallax.js'></script>
 	<script type='text/javascript' src='js/parallax.functions.js'></script>
-
+	
 </body>
 </html>
