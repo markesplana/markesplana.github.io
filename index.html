@@ -100,7 +100,7 @@
 						<ul class="nav navbar-nav no-float" id="parallax-menu">
 							<li class="menu-item"><a href="javascript:void(0);">Home</a></li>
 							<li class="menu-item"><a href="javascript:void(0);">About Mark</a></li>
-							<li class="menu-item"><a href="javascript:void(0);">My Skills</a></li>
+							<li class="menu-item"><a href="javascript:void(0);">Contacts</a></li>
 							<li class="menu-item"><a href="javascript:void(0);">Portfolio</a></li>
 
 						</ul>
@@ -165,8 +165,25 @@
 												<h5><small>Nickname:</small> Mac</h5>
 												<h5><small>Date of Birth:</small> July 18, 1992</h5>
 												<h5><small>Address:</small> Marulas, Valenzuela City</h5>
-												<h5><small>Email:</small> esplana.mark@gmail.com</h5>
-												<h5><small>Skype:</small> mac_esplana</h5>
+
+
+												<h4>Skills</h4>
+												<ul id="techList">
+													<li class="html5">html5</li>
+													<li class="css3">css3</li>
+													<li class="javascript">javascript</li>
+													<li class="jquery">jquery</li>
+													<li class="wordpress">wordpress</li>
+													<li class="accessibility">accessibility</li>
+													<li class="GhostJS">GhostJS</li>
+													<li class="php">PHP</li>
+													<li class="responsive">responsive layout</li>
+													<li class="mysql">MySQL</li>
+													<li class="reactJS">ReactJS</li>
+													<li class="nodeJS">NodeJS</li>
+												</ul>
+
+
 											</div>
 
 
@@ -181,12 +198,16 @@
 				<div id="blog-page" class="parallax-page">
 					<div class="content-box noSwipe">
 						<div class="page-title">
-							<h1>Technical Skills</h1>
+							<h1>Contact</h1>
 						</div>
 
 						<div class="page-contents nano">
-							<div class="parallax-aboutus nano-content">
+							<div class="parallax-aboutus nano-content text-center">
 
+								<h5><small>Email:</small> esplana.mark@gmail.com</h5>
+								<h5><small>Skype:</small> mac_esplana</h5>
+
+<!--
 								<div class="barWrapper">
 							 			<span class="progressText"><B>HTML5</B></span>
 										<div class="progress">
@@ -268,7 +289,7 @@
 														<span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>
 												</div>
 											</div>
-								</div>
+								</div> -->
 
 							</div>
 						</div>
@@ -422,20 +443,27 @@ make Filipinos more intelligent through books and technology, and introduce clou
 	<script type='text/javascript' src='js/parallax.functions.js'></script>
 
 	<script type='text/javascript'>
-	$(function () {
-	  $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
-	});
+	var lang = {
+  "html": "100%",
+  "css": "90%",
+  "javascript": "70%",
+  "php": "55%",
+  "angular": "65%"
+};
 
-	// $( window ).scroll(function() {
-	 // if($( window ).scrollTop() > 10){  // scroll down abit and get the action
-	  $(".progress-bar").each(function(){
-	    each_bar_width = $(this).attr('aria-valuenow');
-	    $(this).width(each_bar_width + '%');
-	  });
+var multiply = 4;
 
-	 //  }
-	// });
+$.each( lang, function( language, pourcent) {
 
+  var delay = 700;
+
+  setTimeout(function() {
+    $('#'+language+'-pourcent').html(pourcent);
+  },delay*multiply);
+
+  multiply++;
+
+});
 	</script>
 
 </body>
